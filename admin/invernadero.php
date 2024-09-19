@@ -7,11 +7,16 @@ $app = new Invernadero;
 // print_r($result);
 $accion = (isset($_GET['accion']))?$_GET['accion']:null; //if ternario 
 switch ($accion){
-    case 'create':
+    case 'crear':
+        include('views/invernadero/crear.php');
         break;
-    case 'update':
+    case 'nuevo':
+        $data = $_POST['data'];
+        $app->create($data);
         break;
-    case 'delete':
+    case 'actualizar':
+        break;
+    case 'eliminar':
         break;
     default:
         $invernaderos=$app -> readAll();

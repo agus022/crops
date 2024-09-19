@@ -5,6 +5,8 @@ class Invernadero extends Sistema{
 
     function create($data){
         $result = [];
+        print_r($data);
+        die();
         return $result;
     }
 
