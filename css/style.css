@@ -1,0 +1,12 @@
+.cards-aling {
+    display: flex !important;
+    justify-content: space-around !important;
+    margin: auto !important;
+}
+
+.background-img{
+    background-image: url('../image/bg-invernadero.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}

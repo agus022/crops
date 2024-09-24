@@ -4,9 +4,8 @@ include('../sistema.class.php');
 class Invernadero extends Sistema{
 
     function create($data){
+        $this->conexion();
         $result = [];
-        print_r($data);
-        die();
         return $result;
     }
 
