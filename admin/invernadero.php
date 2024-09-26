@@ -3,6 +3,7 @@ include ("invernadero.class.php");
 $app = new Invernadero;
 
 $accion = (isset($_GET['accion']))?$_GET['accion']:null; //if ternario 
+$id = (isset($_GET['id'])) ? $_GET['id'] : null;
 switch ($accion){
     case 'crear':
         include('views/invernadero/crear.php');
@@ -22,9 +23,23 @@ switch ($accion){
         include('views/invernadero/index.php');
         break;
     case 'actualizar':
+        $invernaderos = $app-> readOne($id);
+        include('views/invernadero/crear.php');
+        break;
+    case 'modificar':
+        $data=$_POST['data'];
+        $resultado=$app->update($id,$data);
+        if ($resultado) {
+            $mensaje = "El invernadero se actualizo correctamente! :)";
+            $tipo = "success";
+        } else {
+            $mensaje = "No se actualizo :(";
+            $tipo = "danger";
+        }
+        $invernaderos = $app->readAll();
+        include('views/invernadero/index.php');
         break;
     case 'eliminar':
-        $id=(isset($_GET['id']))?$_GET['id']:null;
         if(!is_null($id)){
             if(is_numeric($id)){
                 $resultado=$app->delete($id);

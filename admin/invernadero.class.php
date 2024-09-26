@@ -22,13 +22,25 @@ class Invernadero extends Sistema{
 
     function update ($id,$data){
         $result = [];
+        $this->conexion();
+        $sql="UPDATE invernadero SET invernadero=:invernadero,area=:area,latitud=:latitud,longitud=:longitud,fecha_creacion=:fecha_creacion 
+        where id_invernadero=:id_invernadero;";
+        $modificar = $this->conn->prepare($sql);
+        $modificar->bindParam(':id_invernadero', $id, PDO::PARAM_INT);
+        $modificar->bindParam(':invernadero', $data['invernadero'], PDO::PARAM_STR);
+        $modificar->bindParam(':longitud', $data['longitud'], PDO::PARAM_STR);
+        $modificar->bindParam(':latitud', $data['latitud'], PDO::PARAM_STR);
+        $modificar->bindParam(':area', $data['area'], PDO::PARAM_INT);
+        $modificar->bindParam(':fecha_creacion', $data['fecha_creacion'], PDO::PARAM_STR);
+        $modificar->execute();
+        $result = $modificar->rowCount();
         return $result;
     }
 
     function delete ($id){
         $result = [];
         $this->conexion();
-        $sql = "DELETE FROM invernadero WHERE id_invernadero=:id_invernadero";
+        $sql = "DELETE FROM invernadero WHERE id_invernadero=:id_invernadero;";
         $eliminar = $this->conn->prepare($sql);
         $eliminar->bindParam(':id_invernadero',$id,PDO::PARAM_INT);
         $eliminar->execute();
@@ -38,13 +50,19 @@ class Invernadero extends Sistema{
 
     function readOne($id){
         $result = [];
+        $this->conexion();
+        $sql ='SELECT * from invernadero where id_invernadero = :id_invernadero;';
+        $update =$this->conn->prepare($sql);
+        $update->bindParam(':id_invernadero',$id,PDO::PARAM_INT);
+        $update->execute();
+        $result = $update->fetch(PDO::FETCH_ASSOC);
         return $result;        
     }
 
     function readAll (){
         $this-> conexion();
         $result = [];
-        $consulta = 'select * from invernadero where 1=1';
+        $consulta = 'select * from invernadero;';
         $sql = $this->conn->prepare($consulta);
         $sql ->execute();
         $result = $sql ->fetchAll(PDO::FETCH_ASSOC);
