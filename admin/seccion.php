@@ -1,43 +1,49 @@
 <?php
-require_once ("invernadero.class.php");
-$app = new Invernadero;
+require_once("seccion.class.php");
+require_once("invernadero.class.php");
+$appInvernadero = new Invernadero();
+
+$app = new Seccion;
 
 $accion = (isset($_GET['accion']))?$_GET['accion']:null; //if ternario 
 $id = (isset($_GET['id'])) ? $_GET['id'] : null;
 switch ($accion){
     case 'crear':
-        include('views/invernadero/crear.php');
+        $invernaderos = $appInvernadero-> readAll();
+        include('views/seccion/crear.php');
         break;
     case 'nuevo':
         $data = $_POST['data'];
         $resultado = $app->create($data);
         if ($resultado){
-            $mensaje = "El invernadero se agrego correctamente! :)";
+            $mensaje = "La sección se agrego correctamente! :)";
             $tipo = "success";
 
         }else{
             $mensaje = "ERROR! :(";
             $tipo = "danger";
         }
-        $invernaderos = $app->readAll();
-        include('views/invernadero/index.php');
+        $secciones = $app->readAll();
+        include('views/seccion/index.php');
         break;
     case 'actualizar':
-        $invernaderos = $app-> readOne($id);
-        include('views/invernadero/crear.php');
+        $invernaderos = $appInvernadero->readAll();
+        
+        $secciones = $app-> readOne($id);
+        include('views/seccion/crear.php');
         break;
     case 'modificar':
         $data=$_POST['data'];
         $resultado=$app->update($id,$data);
         if ($resultado) {
-            $mensaje = "El invernadero se actualizo correctamente! :)";
+            $mensaje = "La sección se actualizo correctamente! :)";
             $tipo = "success";
         } else {
             $mensaje = "No se actualizo :(";
             $tipo = "danger";
         }
-        $invernaderos = $app->readAll();
-        include('views/invernadero/index.php');
+        $secciones = $app->readAll();
+        include('views/seccion/index.php');
         break;
     case 'eliminar':
         if(!is_null($id)){
@@ -52,12 +58,12 @@ switch ($accion){
                 }
             }
         }
-        $invernaderos = $app->readAll();
-        include('views/invernadero/index.php');
+        $secciones = $app->readAll();
+        include('views/seccion/index.php');
         break;
     default:
-        $invernaderos=$app -> readAll();
-        include('views/invernadero/index.php');
+        $secciones=$app -> readAll();
+        include('views/seccion/index.php');
 }
 
 ?>

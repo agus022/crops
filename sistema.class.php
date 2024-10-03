@@ -1,5 +1,5 @@
 <?php
-include ("config.class.php");
+require_once ("config.class.php");
 class Sistema{
     var $conn;
     function conexion (){
