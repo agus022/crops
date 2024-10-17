@@ -1,7 +1,6 @@
 <?php
 require_once ("invernadero.class.php");
 $app = new Invernadero;
-
 $accion = (isset($_GET['accion']))?$_GET['accion']:null; //if ternario 
 $id = (isset($_GET['id'])) ? $_GET['id'] : null;
 switch ($accion){
