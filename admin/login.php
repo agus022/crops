@@ -8,18 +8,19 @@ switch ($accion) {
         $correo=$_POST['data']['correo'];
         $contrasena = $_POST['data']['contrasena'];
 
-        if($app->login($correo,$contrasena)){
+        if($app->logIn($correo,$contrasena)){
             echo('BIENVENIDO AL SISTEMA');
             echo('<pre>');
             print_r($_SESSION);
+            die();
         }else{
             echo('ACCESO NEGADO');
         }
-        die();
+        
         break;
     case 'logout':
         $app->logOut();
-        
+
         break;
     default:
         include('views/login/index.php');

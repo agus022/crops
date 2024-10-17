@@ -23,10 +23,11 @@ class Sistema{
             $roles->bindParam(':correo',$correo, PDO::PARAM_STR);
             $roles->execute();
             $data = $roles->fetchAll(PDO::FETCH_ASSOC);
-            $rol=[];
+            $roles2=[];
             foreach($data as $rol){
-                array_push($rol,$rol['rol']);
+                array_push($roles2,$rol['rol']);
             }
+            $data = $roles2;
         }
         return $data;
     }
@@ -44,10 +45,11 @@ class Sistema{
             $privilegio->bindParam(':correo', $correo, PDO::PARAM_STR);
             $privilegio->execute();
             $data = $privilegio->fetchAll(PDO::FETCH_ASSOC);
-            $permiso= [];
+            $permisos= [];
             foreach ($data as $permiso) {
-                array_push($permiso, $permiso['permiso']);
+                array_push($permisos, $permiso['permiso']);
             }
+            $data=$permisos;
         }
         return $data;
     }
@@ -57,13 +59,13 @@ class Sistema{
         $acceso=false;
         if(filter_var($correo,FILTER_VALIDATE_EMAIL)){
             $this->conexion();
-            $sql="SELECT * FROM usuario WHERE correo=:correo and contraseña=:contrasena";
-            $user =$this->conn->prepare($sql);
-            $user->bindParam(':correo',$correo,PDO::PARAM_STR);
-            $user->bindParam(':contrasena', $contrasena, PDO::PARAM_STR);
-            $user->execute();
-            $resultado = $user->fetchAll(PDO::FETCH_ASSOC);
-            if(isset($resultado[0])){
+            $consulta="SELECT * FROM usuario WHERE correo=:correo and contraseña=:contrasena";
+            $sql =$this->conn->prepare($consulta);
+            $sql->bindParam(':correo',$correo,PDO::PARAM_STR);
+            $sql->bindParam(':contrasena', $contrasena, PDO::PARAM_STR);
+            $sql->execute();
+            $result = $sql->fetchAll(PDO::FETCH_ASSOC);
+            if(isset($result[0])){
                 $acceso=true;
                 $_SESSION['validado'] = $acceso;
                 $_SESSION['correo'] = $correo;
@@ -89,7 +91,7 @@ class Sistema{
         $roles=$_SESSION['roles'];
         if(!in_array($rol,$roles)){  
             echo('NO TIENES EL ROL');
-            die();
+            die('ERROR');
         }
     }
 
