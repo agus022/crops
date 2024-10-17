@@ -4,6 +4,7 @@ require_once("invernadero.class.php");
 $appInvernadero = new Invernadero();
 
 $app = new Seccion;
+$app->checkRol('Administrador');
 
 $accion = (isset($_GET['accion']))?$_GET['accion']:null; //if ternario 
 $id = (isset($_GET['id'])) ? $_GET['id'] : null;
@@ -65,5 +66,5 @@ switch ($accion){
         $secciones=$app -> readAll();
         include('views/seccion/index.php');
 }
-
+require_once('views/footer.php');
 ?>

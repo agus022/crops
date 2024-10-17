@@ -1,4 +1,4 @@
-<?php require('views/header.php'); ?>
+<?php require('views/headeradministrador.php'); ?>
 
 <div class="p-3 ">
     <h1>Secciones</h1>

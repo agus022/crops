@@ -60,5 +60,5 @@ switch ($accion){
         $invernaderos=$app -> readAll();
         include('views/invernadero/index.php');
 }
-
+require_once('views/footer.php');
 ?>

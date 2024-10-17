@@ -1,4 +1,4 @@
-<?php require('views/header.php'); ?>
+<?php require('views/headeradministrador.php'); ?>
 
     <h1 class="p-4 cards-aling"><?php if($accion == "crear"):echo('Nuevo');else: echo('Modicar');endif;?> Invernadero</h1>
     <div class="card cards-aling " style=" width: 600px;">

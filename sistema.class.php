@@ -84,14 +84,31 @@ class Sistema{
     function logOut(){
         unset($_SESSION);
         session_destroy();
+        $mensaje="SE CERRO SESION, GRACIAS POR USAR EL SISTEMA CROPS :) [<a href='login.php'>presione aqui para volver a entrar</a>]";
+        $tipo="info";
+        require_once('views/header.php');
+        require_once('views/headeralert.php');
+        $this->alerta($tipo, $mensaje);
+        require('views/footer.php');
     }
 
 
     function checkRol($rol){
-        $roles=$_SESSION['roles'];
-        if(!in_array($rol,$roles)){  
-            echo('NO TIENES EL ROL');
-            die('ERROR');
+        if(isset($_SESSION['roles'])){
+            $roles=$_SESSION['roles'];
+            if(!in_array($rol,$roles)){  
+                $mensaje="ERROR! Usted no tiene el rol adecuado";
+                $tipo="danger";
+                require_once('views/headeralert.php');
+                $this->alerta($tipo,$mensaje);
+                die();
+            }
+        }else{
+            $mensaje = "Se requiere iniciar sesion [<a href='login.php'>Iniciar Sesion aqui</a>]";
+            $tipo = "warning";
+            require_once('views/headeralert.php');
+            $this->alerta($tipo, $mensaje);
+            die();
         }
     }
 

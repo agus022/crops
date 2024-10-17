@@ -1,4 +1,4 @@
-<?php require('views/header.php'); ?>
+<?php require('views/headeradministrador.php'); ?>
 
     <h1 class="p-4 cards-aling"><?php if($accion == "crear"):echo('Nuevo');else: echo('Modicar');endif;?> Sección</h1>
     
