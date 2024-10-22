@@ -1,6 +1,6 @@
 <?php require('views/header.php'); ?>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="index.php">Administrador</a>
+    <a class="navbar-brand" href="invernadero.php">Administrador</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -14,6 +14,16 @@
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="invernadero.php">Invernaderos</a>
                     <a class="dropdown-item" href="seccion.php">Secciones</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Usuarios
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="usuario.php">Usuarios</a>
+                    <a class="dropdown-item" href="#">Roles</a>
+                    <a class="dropdown-item" href="#">Permisos</a>
                 </div>
             </li>
             <li class="nav-item">

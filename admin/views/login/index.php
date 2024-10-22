@@ -1,4 +1,5 @@
 <?php require('views/header.php'); ?>
+
 <div class="card cards-aling " style=" width: 600px;">
 
     <form class="p-4" method="post" action="login.php?accion=login">
@@ -12,7 +13,7 @@
             <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Ingresa la contraseña" name="data[contrasena]">
         </div>
         <div class="form-group form-check">
-
+            <a class="form-check-label" href="login.php?acciopn=forgot">Crear cuenta.</a>
             <a class="form-check-label" href="login.php?acciopn=forgot">Recuperar contraseña.</a>
         </div>
         <input type="submit" class="btn btn-primary" value="Entrar" name="enviar" name="data[enviar]" />
