@@ -22,8 +22,8 @@
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="usuario.php">Usuarios</a>
-                    <a class="dropdown-item" href="#">Roles</a>
-                    <a class="dropdown-item" href="#">Permisos</a>
+                    <a class="dropdown-item" href="rol.php">Roles</a>
+                    <a class="dropdown-item" href="permiso.php">Permisos</a>
                 </div>
             </li>
             <li class="nav-item">

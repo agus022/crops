@@ -9,9 +9,7 @@ class Rol extends Sistema{
         $sql = "INSERT INTO rol (rol) VALUES (:rol);";
         $insertar = $this->conn->prepare($sql);
         //bindParam para evitar las inyecciones de SQL
-        $insertar->bindParam(':seccion', $data['seccion'], PDO::PARAM_STR);
-        $insertar->bindParam(':area', $data['area'], PDO::PARAM_INT);
-        $insertar->bindParam(':id_invernadero', $data['id_invernadero'], PDO::PARAM_INT);
+        $insertar->bindParam(':rol', $data['rol'], PDO::PARAM_STR);
         $insertar->execute();
         $result = $insertar->rowCount();
         return $result;
@@ -20,50 +18,45 @@ class Rol extends Sistema{
     function update($id, $data){
         $result = [];
         $this->conexion();
-        $sql = "UPDATE seccion SET seccion=:seccion,area=:area,id_invernadero=:id_invernadero 
-        where id_seccion=:id_seccion;";
+        $sql =
+        "UPDATE rol SET rol=:rol where id_rol=:id_rol;";
         $modificar = $this->conn->prepare($sql);
-        $modificar->bindParam(':id_seccion', $id, PDO::PARAM_INT);
-        $modificar->bindParam(':seccion', $data['seccion'], PDO::PARAM_STR);
-        $modificar->bindParam(':area', $data['area'], PDO::PARAM_INT);
-        $modificar->bindParam(':id_invernadero', $data['id_invernadero'], PDO::PARAM_INT);
+        $modificar->bindParam(':id_rol', $id, PDO::PARAM_INT);
+        $modificar->bindParam(':rol', $data['rol'], PDO::PARAM_STR);
         $modificar->execute();
         $result = $modificar->rowCount();
         return $result;
     }
 
-    function delete($id)
-    {
+    function delete($id){
         $result = [];
         $this->conexion();
-        $sql = "DELETE FROM seccion WHERE id_seccion=:id_seccion;";
+        $sql = "DELETE FROM rol WHERE id_rol=:id_rol;";
         $eliminar = $this->conn->prepare($sql);
-        $eliminar->bindParam(':id_seccion', $id, PDO::PARAM_INT);
+        $eliminar->bindParam(':id_rol', $id, PDO::PARAM_INT);
         $eliminar->execute();
         $result = $eliminar->rowcount();
         return $result;
     }
 
-    function readOne($id)
-    {
+    function readOne($id){
         $result = [];
         $this->conexion();
-        $sql = 'SELECT * from seccion where id_seccion = :id_seccion;';
-        $update = $this->conn->prepare($sql);
-        $update->bindParam(':id_seccion', $id, PDO::PARAM_INT);
-        $update->execute();
-        $result = $update->fetch(PDO::FETCH_ASSOC);
+        $sql = 'SELECT * from rol where id_rol = :id_rol;';
+        $consulta = $this->conn->prepare($sql);
+        $consulta->bindParam(':id_rol', $id, PDO::PARAM_INT);
+        $consulta->execute();
+        $result = $consulta->fetch(PDO::FETCH_ASSOC);
         return $result;
     }
 
-    function readAll()
-    {
+    function readAll(){
         $this->conexion();
         $result = [];
-        $consulta = 'select s.*,i.invernadero from seccion s join invernadero i on s.id_invernadero=i.id_invernadero;';
-        $sql = $this->conn->prepare($consulta);
-        $sql->execute();
-        $result = $sql->fetchAll(PDO::FETCH_ASSOC);
+        $sql = 'select * from rol;';
+        $consulta = $this->conn->prepare($sql);
+        $consulta->execute();
+        $result = $consulta->fetchAll(PDO::FETCH_ASSOC);
         return $result;
     }
 }

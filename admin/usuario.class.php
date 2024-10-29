@@ -6,20 +6,42 @@ class Usuario extends Sistema{
     function create($data){
         $result = [];
         $this->conexion();
+        $rol = $data['rol'];
         $data = $data['data'];
         //iniciar una transaccion
         $this->conn->beginTransaction();
-        $sql = "INSERT INTO usuario (correo, contraseña) 
-        VALUES (:correo,:contrasena);";
-        $insertar = $this->conn->prepare($sql);
-        $contraEncrip= md5($data['contrasena']);
-        //bindParam para evitar las inyecciones de SQL
-        $insertar->bindParam(':correo', $data['correo'], PDO::PARAM_STR);
-        $insertar->bindParam(':contrasena', $contraEncrip, PDO::PARAM_STR);
-        $insertar->execute();
-        $this->conn->commit(); //terminar la transaccion
-        $result = $insertar->rowCount();
-        return $result;
+        try {
+            $sql = "INSERT INTO usuario (correo, contraseña) VALUES (:correo,:contrasena);";
+            $insertar = $this->conn->prepare($sql);
+            $contraEncrip = md5($data['contrasena']);
+            //bindParam para evitar las inyecciones de SQL
+            $insertar->bindParam(':correo', $data['correo'], PDO::PARAM_STR);
+            $insertar->bindParam(':contrasena', $contraEncrip, PDO::PARAM_STR);
+            $insertar->execute();
+            //conseguir el id con el correo del usuario creado 
+            $sql="SELECT id_usuario from usuario where correo=:correo;";
+            $consulta = $this->conn->prepare($sql);
+            $consulta->bindParam(':correo',$data['correo'],PDO::PARAM_STR);
+            $consulta->execute();
+            $datos=$consulta->fetch(PDO::FETCH_ASSOC);
+            $id_usuario = isset($datos['id_usuario'])? $datos['id_usuario']: null;
+            if(!is_null($id_usuario)){
+                foreach($rol as $r => $k){
+                    $sql = "INSERT into usuario_rol(id_usuario,id_rol) values (:id_usuario,:id_rol)";
+                    $insertar_rol=$this->conn->prepare($sql);
+                    $insertar_rol->bindParam(':id_usuario',$id_usuario,PDO::PARAM_INT);
+                    $insertar_rol->bindParam(':id_rol', $r, PDO::PARAM_INT);
+                    $insertar_rol->execute();
+                }
+                $this->conn->commit(); //terminar la transaccion pero se ejecuta todo sale OK 
+                $result = $insertar->rowCount();
+            }
+            
+            return $result;
+        } catch (Exception $e) {
+            $this->conn->rollback(); //no se ejecuta la transaccion  da ERRROR en la consulta 
+        }
+
     }
 
     function update($id, $data){
@@ -65,6 +87,21 @@ class Usuario extends Sistema{
         $sql = $this->conn->prepare($consulta);
         $sql->execute();
         $result = $sql->fetchAll(PDO::FETCH_ASSOC);
+        return $result;
+    }
+
+    function readAllRoles($id){
+        $this->conexion();
+        $result = [];
+        $sql= "SELECT u.correo as nombre, r.rol as rol 
+                from usuario u
+                inner join usuario_rol ur on u.id_usuario=ur.id_usuario
+                inner join rol r on r.id_rol=ur.id_rol
+                where u.id_usuario=:id_usuario;";
+        $readRoles=$this->conn->prepare($sql);
+        $readRoles->bindParam(':id_usuario',$id,PDO::PARAM_INT);
+        $readRoles->execute();
+        $result =$readRoles->fetchAll(PDO::FETCH_ASSOC);
         return $result;
     }
 }

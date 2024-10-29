@@ -13,6 +13,7 @@
                 <th scope="col">Nombre</th>
                 <th scope="col">Area</th>
                 <th scope="col">Invernadero</th>
+                <th scope="col">Opciones</th>
             </tr>
         </thead>
         <tbody>
