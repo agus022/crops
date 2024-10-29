@@ -67,7 +67,7 @@ class Empleado extends Sistema{
     {
         $this->conexion();
         $result = [];
-        $consulta = 'select * from empleado;';
+        $consulta = 'SELECT e.*, u.correo FROM empleado e JOIN usuario u ON e.id_usuario = u.id_usuario;';
         $sql = $this->conn->prepare($consulta);
         $sql->execute();
         $result = $sql->fetchAll(PDO::FETCH_ASSOC);

@@ -14,7 +14,6 @@
                 <th scope="col">Segundo Apellido</th>
                 <th scope="col">Nombre</th>
                 <th scope="col">RFC</th>
-                <th scope="col">Fotografia</th>
                 <th scope="col">Usuario</th>
                 <th scope="col">Opciones</th>
             </tr>
@@ -27,7 +26,7 @@
                     <td><?php echo $empleado['segundo_apellido']; ?></td>
                     <td><?php echo $empleado['nombre']; ?></td>
                     <td><?php echo $empleado['rfc']; ?></td>
-                    <td><?php echo $empleado['id_usuario']; ?></td>
+                    <td><?php echo $empleado['correo'] ?></td>
                     <td>
                         <div class="btn-group" role="group" aria-label="Basic example">
                             <a href="empleado.php?accion=actualizar&id=<?php echo $empleado['id_empleado']; ?>" class="btn btn-primary"><i class="bi bi-pencil-square"></i> Actualizar</a>
