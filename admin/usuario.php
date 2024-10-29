@@ -1,7 +1,7 @@
 <?php
 require_once('usuario.class.php');
-// include('roles.class.php');
-// $appRoles = new Roles();
+include('rol.class.php');
+$appRoles = new Rol();
 $app = new Usuario();
 $app->checkRol('Administrador');
 $accion = (isset($_GET['accion'])) ? $_GET['accion'] : null;
@@ -9,7 +9,7 @@ $id = (isset($_GET['id'])) ? $_GET['id'] : null;
 
 switch ($accion) {
     case 'crear':
-        //$roles = $appRoles->readAll();
+        $roles = $appRoles->readAll();
         include('views/usuario/crear.php');
         break;
     case 'nuevo':
@@ -30,10 +30,19 @@ switch ($accion) {
         break;
     case 'actualizar':
         $usuario = $app->readOne($id);
+        $roles = $appRoles->readAll();
+        $misRoles=$app->readAllRoles($id);
+        // echo("<pre>");
+        // print_r($miRoles);
+        // die();
+
         include('views/usuario/crear.php');
         break;
     case 'modificar':
-        $data = $_POST['data'];
+        $data = $_POST;
+        
+        // print_r($data);
+        // die();
         $resultado = $app->update($id, $data);
         if ($resultado) {
             $mensaje = "El usuario se actualizó CORRECTAMENTE";
