@@ -10,6 +10,7 @@ $id = (isset($_GET['id'])) ? $_GET['id'] : null;
 switch ($accion) {
     case 'crear':
         $roles = $appRoles->readAll();
+        $misRoles = $app->readAllRoles($id);
         include('views/usuario/crear.php');
         break;
     case 'nuevo':

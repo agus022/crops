@@ -13,10 +13,11 @@
                 <input type="password" name="data[contrasena]" placeholder="Ingrese su contraseña" class="form-control" />
             </div>
             <div class="mb-3">
-                <label>Rol</label>
+                <label>Rol</label>                
                 <?php foreach($roles as $rol): ?>
                 <div class="form-check form-switch">
-                    <input class="form-check-input" type="checkbox" <?php $checked=''; if(in_array($rol['id_rol'],$misRoles)):$checked='checked'; endif; echo($checked);?> role="switch" id="flexSwitchCheckChecked" name="rol[<?php echo($rol['id_rol']);?>]">
+                    <input class="form-check-input" type="checkbox" 
+                    <?php $checked=''; if(in_array($rol['id_rol'], $misRoles)):$checked='checked'; endif; echo($checked);?> role="switch" id="flexSwitchCheckChecked" name="rol[<?php echo($rol['id_rol']);?>]">
                     <label class="form-check-label" for="flexSwitchCheckChecked"><?php echo($rol['rol']);?></label>
                 </div>
                  <?php endforeach;?>
