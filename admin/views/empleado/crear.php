@@ -3,7 +3,7 @@
     <h1 class="p-4 cards-aling"><?php if($accion == "crear"):echo('Nuevo');else: echo('Modicar');endif;?> Empleado</h1>
     
     <div class="card cards-aling " style=" width: 600px;">
-        <form method="post" action="empleado.php?accion=<?php if($accion=="crear"):echo('nuevo');else:echo('modificar&id='.$id);endif;?>" class="p-4">
+        <form method="post" enctype="multipart/form-data" action="empleado.php?accion=<?php if($accion=="crear"):echo('nuevo');else:echo('modificar&id='.$id);endif;?>" class="p-4">
             <div class="mb-3">
                 <label for="primer_apellido" class="form-label">Primer Apellido</label>
                 <input type="text" name="data[primer_apellido] " placeholder="Ingrese su primer apellido" value="<?php if(isset($empleados['primer_apellido'])):echo($empleados['primer_apellido']);endif;?>" class="form-control" />
@@ -19,6 +19,10 @@
             <div class="mb-3">
                 <label for="rfc" class="form-label">RFC</label>
                 <input type="text" name="data[rfc]" placeholder="Ingrese su RFC" value="<?php if(isset($empleados['rfc'])):echo($empleados['rfc']);endif;?>" class="form-control" />
+            </div>
+            <div class="mb-3">
+                <label for="fotografia" class="form-label">Fotografia</label>
+                <input type="file" name="fotografia" placeholder="URL de fotografia" value="<?php if(isset($empleados['fotografia'])):echo($empleados['fotografia']);endif;?>" class="form-control" />
             </div>
             <div class="mb-3">
                 <label>Usuarios</label>
