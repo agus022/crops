@@ -15,8 +15,6 @@
                 require_once('views/headeradministrador.php');
                 $app->alerta($tipo,$mensaje);
                 //plantillas de bienvenida 
-                
-                die();
             }else{
                 $mensaje = "Correo o contraseña incorrectos <a href='login.php'>[Intentar de nuevo]</a>";
                 $tipo = "danger";
