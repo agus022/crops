@@ -8,7 +8,7 @@ class Permiso extends Sistema
     {
         $result = [];
         $this->conexion();
-        $sql = "INSERT INTO permiso (permiso) VALUES (:permmiso);";
+        $sql = "INSERT INTO permiso (permiso) VALUES (:permiso);";
         $insertar = $this->conn->prepare($sql);
         //bindParam para evitar las inyecciones de SQL
         $insertar->bindParam(':permiso', $data['permiso'], PDO::PARAM_STR);

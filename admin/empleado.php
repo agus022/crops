@@ -2,7 +2,6 @@
 require_once("empleado.class.php");
 require_once("usuario.class.php");
 $appUsuario = new Usuario();
-
 $app = new Empleado;
 $app->checkRol('Administrador');
 

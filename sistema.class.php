@@ -1,4 +1,8 @@
 <?php
+
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
+
 session_start();//se crea la super global session
 require_once ("config.class.php");
 class Sistema{
@@ -110,6 +114,42 @@ class Sistema{
             $this->alerta($tipo, $mensaje);
             die();
         }
+    }
+
+    function sendMail($destinario,$asunto,$mensaje){
+
+        require 'vendor/autoload.php';
+        $mail = new PHPMailer();
+
+        //Tell PHPMailer to use SMTP
+        $mail->isSMTP();
+        $mail->SMTPDebug = SMTP::DEBUG_OFF;
+        $mail->Host = 'smtp.gmail.com';
+        $mail->Port = 465;
+        $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
+        $mail->SMTPAuth = true;
+        $mail->Username = '20031296@itcelaya.edu.mx';
+        $mail->Password = 'yhcfilmbfqtksplb';
+        $mail->setFrom('20031296@itcelaya.edu.mx', 'AGUSTIN');
+        $mail->addAddress($destinario, 'Sistema - CROPS');
+
+        //Set the subject line
+        $mail->Subject = $asunto;
+        $mail->msgHTML($mensaje);
+
+        //Replace the plain text body with one created manually
+        $mail->AltBody = 'HOLAAAA MUNDO DESDE UN CORREO ELECTRONICO ';
+
+        //Attach an image file
+        $mail->addAttachment('images/phpmailer_mini.png');
+
+        //send the message, check for errors
+        if (!$mail->send()) {
+            echo 'Mailer Error: ' . $mail->ErrorInfo;
+        } else {
+            echo 'Message sent!';
+        }
+
     }
 
 }

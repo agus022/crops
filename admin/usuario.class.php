@@ -34,6 +34,7 @@ class Usuario extends Sistema{
                     $insertar_rol->execute();
                 }
                 $this->conn->commit(); //terminar la transaccion pero se ejecuta todo sale OK 
+                $this->sendMail($data['correo'],'Bienvenido a CROPS','Bienvenido al sistema, porfavor presentarse a trabajar. :)');
                 $result = $insertar->rowCount();
             }
             
