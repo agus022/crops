@@ -3,6 +3,7 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 
+
 session_start();//se crea la super global session
 require_once ("config.class.php");
 class Sistema{

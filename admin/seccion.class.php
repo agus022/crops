@@ -1,5 +1,8 @@
 <?php
 require_once('../sistema.class.php');
+use Spipu\Html2Pdf\Html2Pdf;
+use Spipu\Html2Pdf\Exception\Html2PdfException;
+use Spipu\Html2Pdf\Exception\ExceptionFormatter;
 
 class Seccion extends Sistema{
     //INSERTAR A LA BASE DE DATOS
@@ -64,5 +67,87 @@ class Seccion extends Sistema{
         $result = $sql ->fetchAll(PDO::FETCH_ASSOC);
         return $result;
     }
+
+    function reporte(){
+        require_once '../vendor/autoload.php';
+        $this->conexion();
+        $sql= 'select * from vseccionesinvernadero';
+        $view=$this->conn->prepare($sql);
+        $view->execute();
+        $result=$view->fetchAll(PDO::FETCH_ASSOC);
+
+        try {
+            include('../libs/phpqrcode/qrlib.php');
+            $id_factura=rand(1,1000);
+            $file_name = '../qr_image/'.$id_factura.'.png';
+            QRcode::png('http://localhost/crops/facturas/'.$id_factura, $file_name, 2, 3, 4);
+            ob_start(); // Inicia el buffer de salida.
+            $content =
+            '<html>
+                <head>
+                    <style>
+                        body {
+                            font-family: Arial, sans-serif;
+                            margin: 0;
+                            padding: 0;
+                        }
+                        table {
+                            width: 100%;
+                            border-collapse: collapse;
+                            margin-top: 20px;
+                        }
+                        th, td {
+                            border: 1px solid black;
+                            text-align: left;
+                            padding: 8px;
+                        }
+                        th {
+                            background-color: #f2f2f2;
+                        }
+                    </style>
+                </head>
+                <body>
+                    <img src="../image/invernadero.png" width="50" height="50"/>
+                    <h1>Reporte de Secciones e Invernaderos</h1>    
+                    <h3>Listado actualizado de todos las secciones</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Sección</th>
+                                <th>Invernadero</th>
+                            </tr>
+                        </thead>
+                        <tbody>';
+
+                    foreach ($result as $seccion) {
+                        $content .= '<tr>
+                        <td>' . htmlspecialchars($seccion['Seciones']) . '</td>
+                        <td>' . htmlspecialchars($seccion['Invernaderos']) . '</td>
+                    </tr>';
+                    }
+
+                    $content .= '</tbody>
+                    </table>
+                    <div class="footer">
+                        Ubicación: Calle Ficticia 123, Ciudad Ejemplo, País
+                        <br><img src="../qr_image/' . $id_factura . '.png">
+                    </div>
+                </body>
+            </html>';
+
+            // Limpia el buffer de salida y escribe el contenido en el PDF.
+            ob_end_clean();
+
+            $html2pdf = new \Spipu\Html2Pdf\Html2Pdf('P', 'A4', 'fr');
+            $html2pdf->setDefaultFont('Arial');
+            $html2pdf->writeHTML($content);
+            $html2pdf->output('SeccionesInvernaderos.pdf');
+        } catch (\Spipu\Html2Pdf\Exception\Html2PdfException $e) {
+            $formatter = new \Spipu\Html2Pdf\Exception\ExceptionFormatter($e);
+            echo $formatter->getHtmlMessage();
+        }
+
+    }
+    
 }
 ?>

@@ -1,0 +1,770 @@
+2024-11-19 18:50:33: <br />
+<b>Deprecated</b>:  Implicit conversion from float 0.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 1.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 2.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 3.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 4.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 5.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 6.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 7.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 8.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 9.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 10.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 11.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 12.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 13.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 14.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 15.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 16.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 0.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 1.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 2.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 3.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 4.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 5.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 6.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 7.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 8.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 9.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 10.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 11.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 12.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 13.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 14.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 15.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 16.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 17.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+2024-11-19 18:51:26: <br />
+<b>Deprecated</b>:  Implicit conversion from float 0.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 1.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 2.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 3.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 4.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 5.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 6.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 7.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 8.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 9.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 10.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 11.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 12.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 13.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 14.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 15.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 16.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 0.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 1.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 2.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 3.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 4.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 5.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 6.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 7.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 8.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 9.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 10.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 11.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 12.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 13.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 14.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 15.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 16.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 17.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+2024-11-19 18:53:44: <br />
+<b>Deprecated</b>:  Implicit conversion from float 0.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 1.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 2.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 3.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 4.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 5.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 6.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 7.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 8.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 9.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 10.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 11.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 12.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 13.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 14.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 15.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 16.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 0.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 1.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 2.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 3.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 4.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 5.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 6.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 7.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 8.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 9.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 10.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 11.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 12.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 13.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 14.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 15.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 16.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 17.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+2024-11-19 18:54:29: <br />
+<b>Deprecated</b>:  Implicit conversion from float 0.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 1.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 2.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 3.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 4.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 5.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 6.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 7.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 8.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 9.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 10.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 11.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 12.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 13.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 14.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 15.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 16.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 0.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 1.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 2.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 3.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 4.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 5.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 6.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 7.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 8.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 9.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 10.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 11.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 12.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 13.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 14.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 15.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 16.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 17.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+2024-11-19 18:55:16: <br />
+<b>Deprecated</b>:  Implicit conversion from float 0.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 1.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 2.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 3.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 4.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 5.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 6.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 7.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 8.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 9.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 10.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 11.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 12.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 13.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 14.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 15.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 16.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 0.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 1.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 2.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 3.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 4.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 5.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 6.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 7.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 8.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 9.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 10.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 11.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 12.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 13.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 14.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 15.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 16.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 17.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+2024-11-19 18:55:35: <br />
+<b>Deprecated</b>:  Implicit conversion from float 0.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 1.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 2.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 3.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 4.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 5.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 6.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 7.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 8.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 9.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 10.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 11.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 12.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 13.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 14.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 15.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 16.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 0.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 1.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 2.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 3.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 4.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 5.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 6.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 7.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 8.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 9.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 10.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 11.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 12.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 13.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 14.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 15.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 16.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 17.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+2024-11-19 18:56:36: <br />
+<b>Deprecated</b>:  Implicit conversion from float 0.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 1.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 2.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 3.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 4.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 5.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 6.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 7.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 8.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 9.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 10.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 11.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 12.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 13.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 14.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 15.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 16.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 0.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 1.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 2.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 3.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 4.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 5.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 6.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 7.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 8.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 9.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 10.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 11.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 12.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 13.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 14.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 15.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 16.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 17.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+2024-11-19 18:57:26: <br />
+<b>Deprecated</b>:  Implicit conversion from float 0.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 1.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 2.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 3.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 4.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 5.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 6.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 7.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 8.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 9.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 10.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 11.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 12.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 13.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 14.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 15.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 16.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 0.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 1.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 2.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 3.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 4.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 5.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 6.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 7.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 8.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 9.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 10.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 11.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 12.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 13.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 14.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 15.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 16.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 17.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+2024-11-19 18:57:43: <br />
+<b>Deprecated</b>:  Implicit conversion from float 0.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 1.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 2.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 3.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 4.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 5.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 6.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 7.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 8.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 9.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 10.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 11.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 12.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 13.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 14.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 15.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 16.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 0.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 1.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 2.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 3.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 4.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 5.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 6.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 7.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 8.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 9.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 10.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 11.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 12.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 13.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 14.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 15.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 16.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 17.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+2024-11-19 18:58:17: <br />
+<b>Deprecated</b>:  Implicit conversion from float 0.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 1.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 2.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 3.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 4.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 5.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 6.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 7.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 8.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 9.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 10.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 11.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 12.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 13.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 14.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 15.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 16.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 0.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 1.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 2.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 3.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 4.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 5.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 6.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 7.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 8.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 9.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 10.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 11.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 12.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 13.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 14.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 15.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 16.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 17.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+2024-11-19 18:58:30: <br />
+<b>Deprecated</b>:  Implicit conversion from float 0.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 1.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 2.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 3.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 4.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 5.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 6.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 7.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 8.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 9.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 10.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 11.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 12.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 13.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 14.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 15.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 16.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>140</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 0.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 1.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 2.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 3.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 4.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 5.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 6.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 7.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 8.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 9.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 10.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 11.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 12.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 13.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 14.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 15.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 16.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />
+<br />
+<b>Deprecated</b>:  Implicit conversion from float 17.5 to int loses precision in <b>C:\xampp\htdocs\crops\libs\phpqrcode\qrencode.php</b> on line <b>144</b><br />

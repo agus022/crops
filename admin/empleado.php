@@ -59,6 +59,9 @@ switch ($accion) {
         $empleados = $app->readAll();
         include('views/empleado/index.php');
         break;
+    case 'reporte':
+        $app->reporte();
+        break;
     default:
         $empleados = $app->readAll();
         include('views/empleado/index.php');
