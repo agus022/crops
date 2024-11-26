@@ -64,7 +64,6 @@ switch ($accion){
         break;
     case 'reporte':
         $app->reporte();
-        die();
         break;
     default:
         $secciones=$app -> readAll();
