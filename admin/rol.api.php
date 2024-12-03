@@ -7,28 +7,19 @@ $id = (isset($_GET['id'])) ? $_GET['id'] : null;
 $data =[];
 switch ($accion) {
     case 'POST':
-        $datos=$_POST;
-        $resultado = $app->create($datos);
-        echo $resultado;
+        $data=$_POST;
+        if(!is_null($id) && is_numeric($id)){
+            $resultado = $app->update($id, $data);
+        }else{
+            $resultado = $app->create($data);
+        }
         if($resultado==1){
-            $data['mensaje']="Se creo correctamente";
+            $data['mensaje']="El rol se ha guardado correctamente";
 
         }else{
             $data['mensaje'] = "Ocurrio algun error";
         }
     break;
-    case 'modificar':
-        $data = $_POST['data'];
-        $resultado = $app->update($id, $data);
-        if ($resultado) {
-            $mensaje = "El rol se actualizó correctamente! :)";
-            $tipo = "success";
-        } else {
-            $mensaje = "ERROR!, el rol no fue actualizado :(";
-            $tipo = "danger";
-        }
-        $roles = $app->readAll();
-        break;
     case 'DELETE':
         if (!is_null($id)) {
             if (is_numeric($id)) {

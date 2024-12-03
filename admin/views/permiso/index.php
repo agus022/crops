@@ -1,4 +1,6 @@
-<?php require('views/headeradministrador.php'); ?>
+<?php 
+require('views/headeradministrador.php');
+?>
 
 <div class="p-3 ">
     <h1>Permisos</h1>
@@ -31,6 +33,7 @@
             <?php endforeach; ?>
         </tbody>
     </table>
+
 </div>
 
 <?php require('views/footer.php'); ?>
