@@ -102,7 +102,7 @@ class Sistema{
         if(isset($_SESSION['roles'])){
             $roles=$_SESSION['roles'];
             if(!in_array($rol,$roles)){  
-                $mensaje="ERROR! Usted no tiene el rol adecuado";
+                $mensaje= "ERROR! Usted no tiene el rol adecuado [<a href='login.php'>Intente de nuevo</a>]";
                 $tipo="danger";
                 require_once('views/headeralert.php');
                 $this->alerta($tipo,$mensaje);
