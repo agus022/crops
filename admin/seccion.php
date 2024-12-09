@@ -69,6 +69,9 @@ switch ($accion){
         include('views/seccion/grafico.php');
         $app->grafico();
         break;
+    case 'excel':
+        $app->excelSeccion();
+        break;
     default:
         $secciones=$app -> readAll();
         include('views/seccion/index.php');

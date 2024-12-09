@@ -3,6 +3,8 @@ require_once('../sistema.class.php');
 use Spipu\Html2Pdf\Html2Pdf;
 use Spipu\Html2Pdf\Exception\Html2PdfException;
 use Spipu\Html2Pdf\Exception\ExceptionFormatter;
+use PhpOffice\PhpSpreadsheet\Spreadsheet;
+use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
 
 class Seccion extends Sistema{
     //INSERTAR A LA BASE DE DATOS
@@ -246,6 +248,47 @@ class Seccion extends Sistema{
         </script>
         <div id="columnchart_values" style="width: 900px; height: 300px;"></div>
         <?php
+    }
+
+    function excelSeccion(){
+        require_once '../vendor/autoload.php';
+        $data = $this->readAll();
+        $spreadsheet = new \PhpOffice\PhpSpreadsheet\Spreadsheet();
+        $activeWorksheet = $spreadsheet->getActiveSheet();
+        //configura tencabezadso , tipo los titulos de una tabla th 
+        $activeWorksheet->setCellValue('A1', '#ID Sección');
+        $activeWorksheet->setCellValue('B1', 'Sección');
+        $activeWorksheet->setCellValue('C1', 'Área');
+        $activeWorksheet->setCellValue('D1', 'Invernadero');
+        //estilos a la letra para los encabezados
+        $headerStyle = [
+            'font' => ['bold' => true],
+            'alignment' => ['horizontal' => \PhpOffice\PhpSpreadsheet\Style\Alignment::HORIZONTAL_CENTER],
+            'borders' => ['allBorders' => ['borderStyle' => \PhpOffice\PhpSpreadsheet\Style\Border::BORDER_THIN]],
+        ];
+        $activeWorksheet->getStyle('A1:D1')->applyFromArray($headerStyle);
+        //llena con los datos obtenidos de la funcion 
+        $row = 2; //iniicar en renglon 2 para los datos
+        foreach ($data as $item) {
+            $activeWorksheet->setCellValue('A' . $row, $item['id_seccion']);
+            $activeWorksheet->setCellValue('B' . $row, $item['seccion']);
+            $activeWorksheet->setCellValue('C' . $row, $item['area']);
+            $activeWorksheet->setCellValue('D' . $row, $item['invernadero']);
+            $row++;
+        }
+        //ajustar celdas 
+        foreach (range('A', 'D') as $col) {
+            $activeWorksheet->getColumnDimension($col)->setAutoSize(true);
+        }
+        // archivo excel 
+        $filename = 'Secciones_Invernaderos.xlsx';
+        $writer = new \PhpOffice\PhpSpreadsheet\Writer\Xlsx($spreadsheet);
+        //descarga del archivo
+        header('Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
+        header('Content-Disposition: attachment;filename="' . $filename . '"');
+        header('Cache-Control: max-age=0');
+        $writer->save('php://output');
+        exit;
     }
     
 }
