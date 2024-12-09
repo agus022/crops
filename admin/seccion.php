@@ -65,6 +65,10 @@ switch ($accion){
     case 'reporte':
         $app->reporte();
         break;
+    case 'grafico':
+        include('views/seccion/grafico.php');
+        $app->grafico();
+        break;
     default:
         $secciones=$app -> readAll();
         include('views/seccion/index.php');

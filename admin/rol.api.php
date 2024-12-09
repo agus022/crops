@@ -33,6 +33,7 @@ switch ($accion) {
         }
         $data['mensaje']=$mensaje;
         break;
+        
     default:
         if(!is_null($id) && is_numeric($id)){
             $roles =$app->readOne($id);

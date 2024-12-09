@@ -5,6 +5,9 @@
     <?php if (isset($mensaje)): $app->alerta($tipo, $mensaje);
     endif ?>
     <a href="seccion.php?accion=crear" class="btn btn-success"><i class="bi bi-plus-circle"></i> Nuevo</a>
+    <a href="seccion.php?accion=reporte" class="btn btn-success"><i class="bi bi-file-pdf"></i> Reporte</a>
+    <a href="seccion.php?accion=grafico" class="btn btn-success"><i class="bi bi-bar-chart-line"></i> Gráficos</a>
+    <a href="seccion.php?accion=excel" class="btn btn-success"><i class="bi bi-file-excel"></i> Excel</a>
     <table class="table table-hover">
         <thead>
 

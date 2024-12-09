@@ -84,32 +84,76 @@ class Seccion extends Sistema{
             ob_start(); // Inicia el buffer de salida.
             $content =
             '<html>
-                <head>
-                    <style>
-                        body {
-                            font-family: Arial, sans-serif;
-                            margin: 0;
-                            padding: 0;
-                        }
-                        table {
-                            width: 100%;
-                            border-collapse: collapse;
-                            margin-top: 20px;
-                        }
-                        th, td {
-                            border: 1px solid black;
-                            text-align: left;
-                            padding: 8px;
-                        }
-                        th {
-                            background-color: #f2f2f2;
-                        }
-                    </style>
-                </head>
-                <body>
-                    <img src="../image/invernadero.png" width="50" height="50"/>
-                    <h1>Reporte de Secciones e Invernaderos</h1>    
+            <head>
+                <style>
+                    body {
+                        font-family: Arial, sans-serif;
+                        margin: 0;
+                        padding: 0;
+                        text-align: center;
+                    }
+                    .header {
+                        margin-bottom: 20px;
+                    }
+                    .header img {
+                        width: 70px;
+                        height: 70px;
+                    }
+                    .header h1 {
+                        font-size: 20px;
+                        margin: 10px 0;
+                    }
+                    .header h3 {
+                        font-size: 14px;
+                        margin: 0;
+                        color: #555;
+                    }
+                    .table-container {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin: 20px auto;
+                        width: 80%;
+                    }
+                    table {
+                        width: 100%;
+                        border-collapse: collapse;
+                        font-size: 14px;
+                    }
+                    th, td {
+                        border: 1px solid #ddd;
+                        text-align: left;
+                        padding: 12px;
+                    }
+                    th {
+                        background-color: #f2f2f2;
+                    }
+                    td:first-child {
+                        width: 60%; /* Define un ancho mayor para la primera columna */
+                    }
+                    tr:nth-child(even) {
+                        background-color: #f9f9f9;
+                    }
+                    .footer {
+                        margin-top: 20px;
+                        font-size: 12px;
+                        color: #555;
+                    }
+                    .qr-code {
+                        margin-top: 10px;
+                    }
+                    .qr-code img {
+                        width: 120px;
+                    }
+                </style>
+            </head>
+            <body>
+                <div class="header">
+                    <img src="../image/invernadero.png" alt="Logo">
+                    <h1>Reporte de Secciones e Invernaderos</h1>
                     <h3>Listado actualizado de todos las secciones</h3>
+                </div>
+                <div class="table-container">
                     <table>
                         <thead>
                             <tr>
@@ -119,20 +163,25 @@ class Seccion extends Sistema{
                         </thead>
                         <tbody>';
 
-                    foreach ($result as $seccion) {
-                        $content .= '<tr>
-                        <td>' . htmlspecialchars($seccion['Seciones']) . '</td>
-                        <td>' . htmlspecialchars($seccion['Invernaderos']) . '</td>
-                    </tr>';
-                    }
+            foreach ($result as $seccion) {
+                $content .= '
+                            <tr>
+                                <td>' . htmlspecialchars($seccion['Seciones']) . '</td>
+                                <td>' . htmlspecialchars($seccion['Invernaderos']) . '</td>
+                            </tr>';
+            }
 
-                    $content .= '</tbody>
+            $content .= '
+                        </tbody>
                     </table>
-                    <div class="footer">
-                        Ubicación: Calle Ficticia 123, Ciudad Ejemplo, País
-                        <br><img src="../qr_image/' . $id_factura . '.png">
-                    </div>
-                </body>
+                </div>
+                <div class="footer">
+                    Ubicación: Instituto Tecnologico de Celaya, Celaya, Gto. 
+                </div>
+                <div class="qr-code">
+                    <img src="../qr_image/' . $id_factura . '.png" alt="Código QR">
+                </div>
+            </body>
             </html>';
 
             // Limpia el buffer de salida y escribe el contenido en el PDF.
@@ -147,6 +196,56 @@ class Seccion extends Sistema{
             echo $formatter->getHtmlMessage();
         }
 
+    }
+
+
+    function grafico(){
+        $data = $this->readAll();
+        ob_start();
+        ?>
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        <script type="text/javascript">
+        google.charts.load("current", {
+        packages: ['corechart']
+        });
+        google.charts.setOnLoadCallback(drawChart);
+        function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+            ["Element", "Area", {
+                role: "style"
+            }],
+            <?php foreach ($data as $invernadero): ?>["<?php echo ($invernadero['seccion']); ?>", <?php echo ($invernadero['area']); ?>, "#AF1740"],
+            <?php endforeach; ?>
+        ]);
+
+        var view = new google.visualization.DataView(data);
+        view.setColumns([0, 1,
+            {
+                calc: "stringify",
+                sourceColumn: 1,
+                type: "string",
+                role: "annotation"
+            },
+            2
+        ]);
+
+        var options = {
+            title: "Área por cada seccion",
+            width: 1000,
+            height: 500,
+            bar: {
+                groupWidth: "95%"
+            },
+            legend: {
+                position: "none"
+            },
+        };
+        var chart = new google.visualization.ColumnChart(document.getElementById("columnchart_values"));
+        chart.draw(view, options);
+        }
+        </script>
+        <div id="columnchart_values" style="width: 900px; height: 300px;"></div>
+        <?php
     }
     
 }
